@@ -91,6 +91,32 @@ nav>ul>li>a {
     background-position: center;
 }
 
+/* ===========main section style================== */
+.company-container{
+    margin:0 200px ;
+}
+
+.company-logo {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =========mobile device responsive ================= */
 
@@ -100,8 +126,6 @@ nav>ul>li>a {
     }
     nav, ul, .banner-container{
         flex-direction: column;
-
-
     }
     .banner-container{
         width: 90%;
@@ -113,5 +137,13 @@ nav>ul>li>a {
     .banner-container{
         margin-top: 41px;
         gap: 0px;
+    }
+    /*======Company Logo===============*/
+    .company-logo {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
     }
 }
