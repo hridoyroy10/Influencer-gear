@@ -171,15 +171,35 @@ nav>ul>li>a {
     display: flex;
     gap: 96px;
 }
+
 .featured-contract {
     margin-top: 26px;
 }
 
+/* =====footer style ============= */
+footer {
+    background: #0A0826;
+    padding: 100px 658px;
+}
 
+.footer-container {
 
+    text-align: center;
+}
 
+.footer-container>h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
 
-
+.footer-container>p, span {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
 
 
 
@@ -198,6 +218,7 @@ nav>ul>li>a {
     .featured-product {
         flex-direction: column;
     }
+
     .banner-container {
         width: 90%;
         justify-content: center;
@@ -211,9 +232,10 @@ nav>ul>li>a {
         gap: 0px;
     }
 
-    .banner-img img{
+    .banner-img img {
         width: 100%;
     }
+
     /*======Company Logo===============*/
     .company-logo {
         display: grid;
@@ -223,11 +245,15 @@ nav>ul>li>a {
         gap: 4px;
     }
 
-    .featured-product{
+    .featured-product {
         flex-direction: column-reverse;
     }
 
     .featured-img img {
         width: 100%;
+    }
+
+    footer{
+        padding: 70px 15px;
     }
 }
