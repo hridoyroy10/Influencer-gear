@@ -114,9 +114,9 @@ nav>ul>li>a {
 }
 
 .product-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .product-card {
@@ -180,7 +180,8 @@ nav>ul>li>a {
 
     nav,
     ul,
-    .banner-container {
+    .banner-container,
+    .product-container {
         flex-direction: column;
     }
 
@@ -205,4 +206,5 @@ nav>ul>li>a {
         align-items: center;
         gap: 4px;
     }
+   
 }
