@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+    background: #FFF;
 }
 
 .container {
@@ -88,4 +89,29 @@ nav>ul>li>a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+/* =========mobile device responsive ================= */
+
+@media screen and (max-width:576px) {
+    .container{
+        padding: 42px;
+    }
+    nav, ul, .banner-container{
+        flex-direction: column;
+
+
+    }
+    .banner-container{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-container{
+        margin-top: 41px;
+        gap: 0px;
+    }
 }
